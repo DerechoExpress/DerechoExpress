@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Derecho Express | Apoyo Académico Legal</title>
+  <link rel="icon" href="https://i.imgur.com/ojpfeGU.jpeg" type="image/x-icon" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f9fafb;
+      color: #1e293b;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+      color: white;
+      text-align: center;
+      padding: 4rem 1rem 2rem;
+      position: relative;
+    }
+    header img {
+      width: 120px;
+      border-radius: 50%;
+      border: 4px solid white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    header h1 {
+      font-size: 2.8rem;
+      margin-top: 1rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.95;
+    }
+    nav {
+      position: sticky;
+      top: 0;
+      background-color: white;
+      padding: 0.8rem 2rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      z-index: 1000;
+    }
+    nav a {
+      text-decoration: none;
+      color: #1e3a8a;
+      font-weight: 600;
+    }
+    section {
+      padding: 3rem 1.5rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #1e40af;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .card {
+      background-color: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.04);
+      margin-bottom: 2rem;
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+    }
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+    }
+    ul {
+      padding-left: 1.5rem;
+    }
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+    form input,
+    form textarea {
+      width: 100%;
+      padding: 12px;
+      margin-top: 10px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-family: inherit;
+    }
+    form button {
+      margin-top: 15px;
+      background-color: #1e3a8a;
+      color: white;
+      border: none;
+      padding: 14px 24px;
+      font-size: 1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    .contact-links a {
+      display: inline-block;
+      margin-top: 15px;
+      margin-right: 10px;
+      padding: 12px 20px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-size: 1rem;
+      font-weight: bold;
+      color: white;
+    }
+    a.whatsapp {
+      background-color: #25d366;
+    }
+    a.facebook {
+      background-color: #1877f2;
+    }
+    footer {
+      background-color: #1e293b;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://i.imgur.com/ojpfeGU.jpeg" alt="Logo Derecho Express" />
+    <h1>Derecho Express</h1>
+    <p>Expertos en tareas jurídicas. Entrega + explicación + confianza total.</p>
+  </header>
+
+  <nav>
+    <a href="#servicios">Servicios</a>
+    <a href="#beneficios">Beneficios</a>
+    <a href="#porqueelegirnos">¿Por qué nosotros?</a>
+    <a href="#precios">Precios</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section id="servicios">
+    <div class="card">
+      <h2>¿Qué ofrecemos?</h2>
+
+      <p><strong>📚 Tareas, ensayos, resúmenes y cuadros comparativos hechos a tu medida</strong></p>
+      <p>Realizamos todo tipo de trabajos académicos en Derecho, desde tareas sencillas hasta ensayos argumentativos y resúmenes estructurados. También elaboramos cuadros comparativos claros y bien organizados que te permiten visualizar las diferencias y similitudes entre conceptos jurídicos de manera eficiente. Cada entrega se adapta a los requisitos específicos de tus materias y profesores, garantizando contenido de calidad y presentación impecable.</p>
+
+      <p><strong>📝 Redacción de demandas, contratos y documentos jurídicos con fines académicos</strong></p>
+      <p>Elaboramos documentos jurídicos simulados con fines didácticos, como demandas, contratos, convenios, escritos de trámite y más. Estos materiales están diseñados para ayudarte a comprender cómo se estructura y redacta un documento legal en la práctica, siempre dentro de un marco académico y con enfoque formativo. Ideal para materias procesales, clínicas jurídicas y talleres.</p>
+
+      <p><strong>🎤 Asesoría personalizada para exposiciones, proyectos y análisis de casos</strong></p>
+      <p>¿Tienes que exponer, desarrollar un caso práctico o presentar un proyecto jurídico? Te brindamos apoyo completo para que lo hagas con seguridad, claridad y fundamentos sólidos. Ya sea un análisis de jurisprudencia, un caso simulado o una presentación oral, te ayudamos a estructurar el contenido, reforzar tus argumentos y presentarlo con confianza.</p>
+
+      <p><strong>💡 Material acompañado de explicaciones para que realmente aprendas</strong></p>
+      <p>Cada trabajo se entrega con una explicación complementaria, pensada para ayudarte a entender los temas tratados. No solo te damos la respuesta, también te enseñamos el porqué, para que avances en tu formación como jurista. Nuestro objetivo es que apruebes, pero también que comprendas y domines los temas.</p>
+
+      <p><strong>📖 Citas en formato APA, normas jurídicas actualizadas y presentación profesional</strong></p>
+      <p>Tu trabajo incluirá las referencias correctamente citadas en estilo APA, así como las normativas jurídicas vigentes necesarias para sustentar los argumentos. Además, cuidamos todos los detalles de formato: ortografía, redacción, estructura y presentación, para que entregues un trabajo profesional y sin errores.</p>
+    </div>
+  </section>
+
+  <section id="beneficios">
+    <div class="card">
+      <h2>Beneficios</h2>
+
+      <p><strong>Personalización integral:</strong> Cada tarea, ensayo o análisis es elaborado según sus requerimientos específicos, asegurando un trabajo único y adaptado a las particularidades de su materia, profesor e institución.</p>
+
+      <p><strong>Calidad académica garantizada:</strong> Nuestros documentos se desarrollan con rigor jurídico, fundamentados en normativas sólidas, redactados con claridad y coherencia para ofrecer recursos que potencian su aprendizaje y desempeño.</p>
+
+      <p><strong>Aprendizaje efectivo:</strong> No solo entregamos trabajos, sino que proporcionamos explicaciones y apoyo adicional para que comprenda y aproveche el contenido, fomentando así un verdadero entendimiento del Derecho.</p>
+
+      <p><strong>Flexibilidad en revisiones:</strong> Atendemos cualquier ajuste posterior a la entrega para que su trabajo cumpla con todos los criterios, garantizando plena satisfacción y conformidad.</p>
+
+      <p><strong>Confidencialidad absoluta:</strong> Su información personal y académica se maneja con la máxima discreción y profesionalismo, asegurando una comunicación segura y eficiente principalmente a través de WhatsApp.</p>
+
+      <p><strong>Entrega puntual y compromiso:</strong> Respetamos estrictamente los tiempos acordados para que disponga de su material cuando lo necesite, con la calidad y formalidad que requiere.</p>
+
+      <p>Contratar nuestro servicio implica contar con un respaldo serio y profesional que le acompaña en su formación académica, brindándole las herramientas necesarias para sobresalir en el estudio del Derecho.</p>
+    </div>
+  </section>
+
+  <section id="porqueelegirnos">
+    <div class="card">
+      <h2>¿Por qué elegirnos?</h2>
+
+      <p><strong>💼 Expertos en Derecho Penal, Civil, Constitucional, Laboral y más:</strong> Contamos con un equipo de profesionales especializados en diversas ramas del derecho, garantizando que tu tarea, investigación o proyecto sea realizado con la máxima calidad y rigor académico.</p>
+
+      <p>Nuestra experiencia nos permite abordar con precisión y profundidad cualquier tema que necesites, asegurando un trabajo impecable y fundamentado en la normativa vigente.</p>
+
+      <p><strong>💰 Precios accesibles desde $20 pesos, diseñados para estudiantes:</strong> Sabemos que como estudiante cada peso cuenta, por eso ofrecemos tarifas competitivas y accesibles que se ajustan a tu presupuesto sin sacrificar la calidad.</p>
+
+      <p>Nuestro compromiso es brindarte soluciones efectivas y económicas que te permitan cumplir con tus objetivos académicos sin preocupaciones financieras.</p>
+
+      <p><strong>⏱️ Entregas rápidas y urgentes el mismo día:</strong> Entendemos que en ocasiones los tiempos apremian. Por eso, ofrecemos la opción de entregas urgentes con la máxima rapidez, sin que esto afecte la calidad de nuestro trabajo.</p>
+
+      <p>Nuestro equipo está preparado para responder a tus necesidades inmediatas, garantizando puntualidad y excelencia.</p>
+
+      <p><strong>🧠 Explicaciones personalizadas que facilitan tu aprendizaje:</strong> No solo entregamos tareas, también te ayudamos a comprender los conceptos jurídicos involucrados.</p>
+
+      <p>Cada trabajo incluye una explicación detallada y personalizada que te permitirá fortalecer tus conocimientos, prepararte para exámenes y ganar confianza en la materia.</p>
+
+      <p><strong>📱 Atención inmediata y personalizada vía WhatsApp:</strong> Estamos disponibles para resolver tus dudas, recibir tus indicaciones y acompañarte durante todo el proceso, a través de un canal directo y accesible como WhatsApp.</p>
+
+      <p>Nuestra comunicación rápida y clara te brinda la seguridad y soporte que necesitas en todo momento.</p>
+
+      <p><strong>🔍 Confianza comprobada: revisa nuestras referencias en Facebook:</strong> Miles de estudiantes ya nos han confiado sus trabajos y han comprobado la calidad, profesionalismo y responsabilidad de nuestro servicio.</p>
+
+      <p>Puedes verificar nuestras reseñas y testimonios en Facebook para sentirte seguro de elegirnos como tu mejor opción.</p>
+    </div>
+  </section>
+
+  <section id="precios">
+    <div class="card">
+      <h2>⚖️ Tabla de precios por cuartilla – Trabajos académicos en Derecho</h2>
+      <p>📍Nuestros precios están calculados según el tiempo, análisis, redacción y conocimiento jurídico que requiere cada entrega.</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin-top: 1rem;">
+        <thead>
+          <tr style="background-color: #1e40af; color: white; text-align: left;">
+            <th style="padding: 8px; border: 1px solid #ddd;">Nivel de complejidad</th>
+            <th style="padding: 8px; border: 1px solid #ddd;">Precio por cuartilla</th>
+            <th style="padding: 8px; border: 1px solid #ddd;">¿Qué incluye este nivel?</th>
+            <th style="padding: 8px; border: 1px solid #ddd;">¿Cuándo aplica?</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="padding: 8px; border: 1px solid #ddd;">🍃 Fácil</td>
+            <td style="padding: 8px; border: 1px solid #ddd;">$10 – $20</td>
+            <td style="padding: 8px; border: 1px solid #ddd;">
+              Trabajos básicos que no requieren interpretación jurídica ni redacción técnica.<br><br>
+              ✏️ Actividades como:<br>
+              – Resúmenes sin análisis<br>
+              – Cuestionarios sencillos<br>
+              – Definiciones copiadas de fuente directa<br>
+              – Mapas conceptuales o cuadros ya proporcionados<br><br>
+              ⏳ Tiempo estimado: Bajo<br>
+              🧠 Nivel de análisis: Nulo o mínimo
+            </td>
+            <td style="padding: 8px; border: 1px solid #ddd;">
+              ✅ Cuando el objetivo es solo cumplir con una entrega simple<br>
+              ✅ Cuando el cliente proporciona toda la información<br>
+              ✅ Cuando no se requiere pensar jurídicamente ni aplicar doctrina o ley
+            </td>
+          </tr>
+          <tr style="background-color: #f3f4f6;">
+            <td style="padding: 8px; border: 1px solid #ddd;">📘 Media</td>
+            <td style="padding: 8px; border: 1px solid #ddd;">$20 – $40</td>
+            <td style="padding: 8px; border: 1px solid #ddd;">
+              Trabajos que implican redacción estructurada, razonamiento jurídico básico y uso de fuentes.<br><br>
+              📄 Incluye:<br>
+              – Ensayos formales con introducción, desarrollo y conclusión<br>
+              – Cuadros comparativos elaborados desde cero<br>
+              – Contratos simples (compraventa, arrendamiento)<br>
+              – Demandas simuladas con estructura básica<br>
+              – Comentarios de artículos legales<br><br>
+              ⏳ Tiempo estimado: Medio<br>
+              📚 Nivel de análisis: Aplicación e interpretación de conceptos
+            </td>
+            <td style="padding: 8px; border: 1px solid #ddd;">
+              ✅ Cuando se espera una estructura profesional<br>
+              ✅ Cuando se requiere analizar la ley, pero sin profundidad técnica<br>
+              ✅ Cuando el trabajo debe cumplir estándares académicos formales
+            </td>
+          </tr>
+          <tr>
+            <td style="padding: 8px; border: 1px solid #ddd;">🧠 Difícil</td>
+            <td style="padding: 8px; border: 1px solid #ddd;">$40 – $70</td>
+            <td style="padding: 8px; border: 1px solid #ddd;">
+              Trabajos complejos que requieren análisis profundo, redacción jurídica especializada y dominio normativo.<br><br>
+              ⚖️ Incluye:<br>
+              – Contratos con cláusulas especiales (condicionales, fiduciarias, penales)<br>
+              – Opiniones jurídicas con fundamentos doctrinales o jurisprudenciales<br>
+              – Demandas completas con hechos, derecho, pruebas y peticiones<br>
+              – Estudio de casos reales o interpretación de jurisprudencia<br><br>
+              ⏳ Tiempo estimado: Alto<br>
+              🧠 Nivel de análisis: Alto, técnico y argumentativo
+            </td>
+            <td style="padding: 8px; border: 1px solid #ddd;">
+              ✅ Cuando se busca simular un trabajo profesional o de tipo litigioso<br>
+              ✅ Cuando se necesita estructurar con precisión legal real<br>
+              ✅ Cuando el contenido debe demostrar conocimiento jurídico profundo
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p style="margin-top: 1.5rem;"><strong>💡 ¿Por qué varían los precios?</strong><br>
+      Porque no es lo mismo copiar una definición que redactar una demanda completa con hechos, derecho y jurisprudencia.<br>
+      Te explicamos cómo se calcula el precio:</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin-top: 0.5rem;">
+        <thead>
+          <tr style="background-color: #1e40af; color: white; text-align: left;">
+            <th style="padding: 8px; border: 1px solid #ddd;">🛠️ Factor</th>
+            <th style="padding: 8px; border: 1px solid #ddd;">📌 Influencia en el precio</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="padding: 8px; border: 1px solid #ddd;">⏰ Tiempo de elaboración</td>
+            <td style="padding: 8px; border: 1px solid #ddd;">Cuanto más análisis y redacción personalizada se requiera, mayor es el precio.</td>
+          </tr>
+          <tr style="background-color: #f3f4f6;">
+            <td style="padding: 8px; border: 1px solid #ddd;">📚 Investigación necesaria</td>
+            <td style="padding: 8px; border: 1px solid #ddd;">Si el trabajo requiere buscar leyes, artículos o jurisprudencia, se cobra como trabajo medio o difícil.</td>
+          </tr>
+          <tr>
+            <td style="padding: 8px; border: 1px solid #ddd;">🧠 Nivel de conocimiento jurídico</td>
+            <td style="padding: 8px; border: 1px solid #ddd;">Si se necesita aplicar doctrina o argumentar legalmente, el trabajo sube de nivel.</td>
+          </tr>
+          <tr style="background-color: #f3f4f6;">
+            <td style="padding: 8px; border: 1px solid #ddd;">🧾 Formato y estructura</td>
+            <td style="padding: 8px; border: 1px solid #ddd;">Los trabajos con citas APA, estructura jurídica, numeración o argumentación formal requieren más trabajo.</td>
+          </tr>
+          <tr>
+            <td style="padding: 8px; border: 1px solid #ddd;">💬 Explicaciones y asesoría</td>
+            <td style="padding: 8px; border: 1px solid #ddd;">Incluimos explicaciones del trabajo si lo solicitas, lo cual también se contempla en el precio.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p style="margin-top: 1.5rem;">
+        ✅ Con nosotros:<br>
+        Solo pagas por lo que realmente requiere tu tarea.<br><br>
+        Te entregamos material listo para impresión o entrega.<br><br>
+        Te apoyamos si necesitas correcciones o ajustes posteriores.<br><br>
+        Entendemos perfectamente el lenguaje jurídico académico.
+      </p>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <div class="card">
+      <h2>📬 Buzón de contacto</h2>
+      <p>Cuéntanos qué necesitas y cómo prefieres que te contactemos:</p>
+      <form onsubmit="enviarMensaje(); return false;">
+        <label for="mensaje">¿Qué tarea necesitas?</label>
+        <textarea id="mensaje" rows="5" placeholder="Ejemplo: Ensayo de 3 cuartillas sobre delitos dolosos..."></textarea>
+        <label for="contacto">¿Dónde podemos contactarte?</label>
+        <input id="contacto" type="text" placeholder="Ejemplo: 5561234567 o micorreo@gmail.com" />
+        <button type="submit">Enviar mensaje por WhatsApp</button>
+      </form>
+    </div>
+
+    <div class="card">
+      <h2>Contáctanos directamente</h2>
+      <div class="contact-links">
+        <a class="whatsapp" href="https://wa.me/5215565189385" target="_blank">💬 WhatsApp: 5565189385</a>
+        <a class="facebook" href="https://www.facebook.com/jose.vazquez.916889" target="_blank">📘 Facebook: José Vázquez</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Derecho Express | Tu solución legal académica de confianza</p>
+  </footer>
+
+  <script>
+    function enviarMensaje() {
+      const mensaje = document.getElementById('mensaje').value.trim();
+      const contacto = document.getElementById('contacto').value.trim();
+      if (!mensaje || !contacto) {
+        alert("Por favor, llena ambos campos antes de enviar.");
+        return;
+      }
+      const texto = `Hola, me gustaría solicitar una tarea:%0A%0A${mensaje}%0A%0APuedes contactarme por: ${contacto}`;
+      const url = "https://wa.me/5215565189385?text=" + encodeURIComponent(texto);
+      window.open(url, "_blank");
+    }
+  </script>
+</body>
+</html>
